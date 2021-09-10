@@ -1,0 +1,64 @@
+>> plot(t, y)
+>> hold on
+>> plot(t, y1)
+>> legend('sin', 'cos')
+>> title('my frist plot')
+>> path = pwd
+path = /media/files/Workspace/jupyter_workspace/octave_tutorial
+>> print path -dpng 'myPlot.png'
+>> print pwd -dpng 'myPlot2.png'
+>> close
+>> figure(1); plot(t, y)
+>> subplot(1,2,1); plot(t, y1);
+>> subplot(1,2,2); plot(t, y);
+>> axis([0.5  1 -1 1])
+>> A = magic(9)
+>> y = sin(2*pi*4*t);
+>> plot(t, y)
+>> y1 = cos(2*pi*4*t)
+>> y = sin(2*pi*4*t);
+>> plot(t, y)
+>> t= [0:0.01:0.9]
+>> D .* eye(9)
+>> max(A(:))
+>> max(A(:))
+>> v = [1 ; 2; 3]
+v =
+
+   1
+   2
+   3
+
+>> exp(v)
+ans =
+
+    2.7183
+    7.3891
+   20.0855
+
+>> 1 ./ v
+ans =
+
+   1.00000
+   0.50000
+   0.33333
+
+>> log(v)
+ans =
+
+   0.00000
+   0.69315
+   1.09861
+>> A*B
+ans =
+
+    90    96   102
+   216   231   246
+   342   366   390
+
+>> A .* B
+ans =
+
+    11    24    39
+    56    75    96
+   119   144   171
